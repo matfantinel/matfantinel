@@ -21,7 +21,6 @@
           color: #0ca4a5;
         }
 
-        // Typewriter animation
         .title {
           overflow: hidden;
           border-right: 0.15em solid transparent;
