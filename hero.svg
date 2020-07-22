@@ -1,8 +1,8 @@
 <svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
-	<foreignObject width="100%" height="100%">
-		<div xmlns="http://www.w3.org/1999/xhtml">
-			<style>
-				.introduction {
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .introduction {
           z-index: 2;
           display: flex;
           flex-direction: column;
@@ -12,21 +12,57 @@
         .introduction span {
           font-size: 3.5rem;
         }
-        .introduction span.intro {
+        .intro {
           font-weight: 600;
         }
-        .introduction span.title {
+        .title {
           font-size: 5rem;
           font-weight: 600;
-          color: #0CA4A5;
+          color: #0ca4a5;
         }
-			</style>
-			<div class="introduction">
+
+        // Typewriter animation
+        .title {
+          overflow: hidden;
+          border-right: 0.15em solid transparent;
+          white-space: nowrap;
+          animation: typing-small 0.75s steps(40, end), blink-caret 0.75s step-end infinite;
+          animation-fill-mode: forwards;
+          width: 360px;
+        }
+        .title.stop {
+          animation: typing-small 0.75s steps(40, end), blink-caret 0.75s step-end 1;
+          animation-fill-mode: forwards;
+        }
+        .title.delay {
+          width: 0;
+          animation-delay: 0.75s;
+        }
+
+        @keyframes typing-small {
+          from {
+            width: 0;
+          }
+          to {
+            width: 360px;
+          }
+        }
+        @keyframes blink-caret {
+          from,
+          to {
+            border-color: transparent;
+          }
+          50% {
+            border-color: var(--dark-accent-color);
+          }
+        }
+      </style>
+      <div class="introduction">
         <span class="intro">Hey,</span>
-        <span class="title stop small-only">Matheus</span>
-        <span class="title delay small-only">Fantinel</span>
+        <span class="title stop">Matheus</span>
+        <span class="title delay">Fantinel</span>
         <span>here.</span>
       </div>
-		</div>
-	</foreignObject>
+    </div>
+  </foreignObject>
 </svg>
