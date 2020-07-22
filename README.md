@@ -5,5 +5,10 @@
 </div>
 
 <div>
-	<span>I am a software engineer from Brazil specializing in building fast, beautiful and high-quality web apps. You can learn more about me <a href="https://fantinel.dev" target="_blank">on my website</a>!</span>
+	<p>
+		I am a software engineer from Brazil specializing in building fast, beautiful and high-quality web apps.
+	</p>
+	<p>
+		👉👉👉<a href="https://fantinel.dev" target="_blank">Check out my website</a>👈👈👈 for more information!
+	</p>
 </div>
