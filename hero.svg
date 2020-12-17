@@ -164,8 +164,8 @@
       stroke: #0ca4a5;
     }
     #web {
-      fill: #ffffff;
-      stroke: #0ca4a5;
+      fill: #94C9C9;
+      stroke: #94C9C9;
     }
 
     #web > path:nth-child(1) {
