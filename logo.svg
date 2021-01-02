@@ -126,6 +126,11 @@
 
   <style>
 
+  #svg8 {
+    position: absolute;
+    top: 0;
+  }
+
     @keyframes animate-svg-fill {
       0% {
         fill: transparent;
