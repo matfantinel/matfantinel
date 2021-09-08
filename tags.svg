@@ -10,24 +10,26 @@
           width: 100%;
         }
         .tag {
-          background-color: #E3FFFF;
-          border-radius: 0.25em;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 5px;
+          padding: 5px 15px;
+          border-radius: 10px;
+          font-weight: 500;
+          font-size: 0.85rem;
+          width: fit-content;
+          white-space: nowrap;
+          font-family:sans-serif;
+          background-color: #e3ffff;
           color: #0ca4a5;
-          border: 1px solid #0ca4a5;
-          display: inline-block;
-          font-size: 0.75em;
-          line-height: 2em;
-          margin: 0.125em;
-          padding: 0 0.5em;
-          text-decoration: none;
-          font-family: sans-serif;
         }
       </style>
 
       <div class="tags">
         <div class="tag">Angular</div>
         <div class="tag">Vue(X)</div>
-        <div class="tag">JavaScript</div>
+        <div class="tag">Svelte</div>
         <div class="tag">TypeScript</div>
       </div>
       <div class="tags">
