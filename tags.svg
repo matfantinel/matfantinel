@@ -24,6 +24,7 @@
           font-family:sans-serif;
           background-color: #e3ffff;
           color: #0ca4a5;
+          margin: 0.125em;
         }
       </style>
 
