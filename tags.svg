@@ -29,20 +29,19 @@
       </style>
 
       <div class="tags">
-        <div class="tag">Angular</div>
-        <div class="tag">Vue(X)</div>
+        <div class="tag">Vue</div>
+        <div class="tag">React</div>
         <div class="tag">Svelte</div>
-        <div class="tag">TypeScript</div>
+        <div class="tag">Angular</div>
       </div>
       <div class="tags">
-        <div class="tag">(S)CSS</div>
-        <div class="tag">Building UIs</div>
+        <div class="tag">SASS</div>
+        <div class="tag">Responsive Design</div>
         <div class="tag">Web Components</div>
       </div>
       <div class="tags">
         <div class="tag">Ionic</div>
         <div class="tag">Electron</div>
-        <div class="tag">.NET</div>
       </div>
 
     </div>
