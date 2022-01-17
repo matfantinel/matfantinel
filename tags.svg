@@ -8,7 +8,7 @@
           flex-wrap: wrap;
           height: 100%;
           width: 100%;
-          gap: 10px;
+          margin-bottom: 5px;
         }
         .tag {
           display: flex;
@@ -36,12 +36,13 @@
       </div>
       <div class="tags">
         <div class="tag">SASS</div>
-        <div class="tag">Responsive Design</div>
-        <div class="tag">Web Components</div>
+        <div class="tag">TypeScript</div>
+        <div class="tag">Atomic Design</div>
       </div>
       <div class="tags">
         <div class="tag">Ionic</div>
         <div class="tag">Electron</div>
+        <div class="tag">PWAs</div>
       </div>
 
     </div>
