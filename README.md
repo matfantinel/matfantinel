@@ -15,7 +15,3 @@ Also, feel free to check what I've been rambling about on <a href="https://fanti
 <li>Open Sourcerer</li>
 <li>Bullet List Enthusiast</li>
 </ul>
-
-## I am good at a few things:
-
-<img src="https://raw.githubusercontent.com/matfantinel/matfantinel/master/tags.svg" width="auto" height="auto">
